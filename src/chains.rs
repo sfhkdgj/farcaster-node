@@ -13,6 +13,8 @@ use std::str::FromStr;
 use farcaster_core::{blockchain::Blockchain, consensus};
 use strict_encoding::{StrictDecode, StrictEncode};
 
+use serde::{Serialize, Deserialize};
+
 /// A list of supported arbitrating blockchain
 #[derive(
     Debug,

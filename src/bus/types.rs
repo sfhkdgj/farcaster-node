@@ -20,6 +20,7 @@ use internet2::addr::NodeId;
 use microservices::rpc;
 use serde_with::DisplayFromStr;
 use strict_encoding::{NetworkDecode, NetworkEncode};
+use serde::{Serialize, Deserialize};
 
 use crate::swapd::StateReport;
 use crate::syncerd::Health;

@@ -30,6 +30,7 @@ use crate::bus::{
 use crate::swapd::CheckpointSwapd;
 use crate::syncerd::{Health, SweepAddressAddendum};
 use crate::{Error, ServiceId};
+use crate::serde::{Serialize, Deserialize};
 
 use super::p2p::Commit;
 

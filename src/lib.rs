@@ -12,7 +12,7 @@
     non_snake_case,
     unused_mut,
     unused_imports,
-    dead_code
+    // dead_code
 )]
 
 #[macro_use]

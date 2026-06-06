@@ -10,6 +10,7 @@ use bitcoin::consensus::Decodable;
 #[cfg(feature = "serde")]
 use serde_with::DisplayFromStr;
 use strict_encoding::{StrictDecode, StrictEncode};
+use serde::{Serialize, Deserialize};
 
 use crate::bus::{info::Address, AddressSecretKey};
 

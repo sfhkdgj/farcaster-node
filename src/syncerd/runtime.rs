@@ -17,6 +17,7 @@ use crate::syncerd::opts::Opts;
 use crate::syncerd::*;
 use crate::CtlServer;
 use crate::{Error, LogStyle, Service, ServiceConfig, ServiceId};
+use crate::serde::{Serialize, Deserialize};
 
 use std::collections::HashSet;
 use std::sync::mpsc::Receiver;

@@ -15,6 +15,7 @@ use internet2::addr::{InetSocketAddr, NodeAddr, NodeId};
 #[cfg(feature = "serde")]
 use serde_with::{DisplayFromStr, DurationSeconds};
 use strict_encoding::{NetworkDecode, NetworkEncode};
+use serde::{Serialize, Deserialize};
 
 use crate::bus::{
     AddressSecretKey, CheckpointEntry, DealInfo, Failure, List, OptionDetails, Progress,

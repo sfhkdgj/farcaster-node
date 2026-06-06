@@ -9,6 +9,7 @@ use strict_encoding::{NetworkDecode, NetworkEncode};
 
 use crate::bus::{Progress, StateTransition};
 use crate::swapd::temporal_safety::SWEEP_MONERO_THRESHOLD;
+use crate::serde::{Serialize, Deserialize};
 
 use super::{syncer_client::SyncerState, temporal_safety::TemporalSafety};
 

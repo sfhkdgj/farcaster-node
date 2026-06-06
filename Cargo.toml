@@ -74,7 +74,7 @@ lazy_static = "1.4"
 lmdb = "0.8.0"
 log = { version = "0.4", features = ["max_level_trace", "release_max_level_debug"] }
 microservices = { version = "0.8.0", default-features = false, features = ['peer'] }
-monero = "0.17"
+monero = "0.17.3"
 monero-lws = "0.1"
 monero-rpc = "0.3"
 nix = { version = "0.19", optional = true }
@@ -87,7 +87,7 @@ rustc-hex = "2.1.0"
 # the `serde` crate;
 # this can be fixed once rust-version is updated to 1.60.0, which solves this
 # by adding the `dep:` prefix for features defined by dependencies
-serde_crate = { package = "serde", version = "1", features = ["derive"], optional = true }
+serde_crate = { package = "serde", version = "=1.0.124", features = ["derive"], optional = true }
 serde_json = { version = "1", optional = true }
 serde_with = { version = "1.8", optional = true }
 serde_yaml = { version = "0.8", optional = true }
@@ -102,6 +102,7 @@ tonic = "0.7.2"
 tonic-web = "0.3.0"
 uuid = { version = "1.1", features = ["v4", "serde"] }
 zmq = { package = "zmq2", version = "0.5.0" }
+zeromq-src = { package = "zeromq-src", version = "=0.2.6" }
 
 [build-dependencies]
 tonic-build = "0.7"

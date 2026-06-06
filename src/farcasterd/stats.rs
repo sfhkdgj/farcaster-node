@@ -8,6 +8,7 @@ use std::collections::HashSet;
 
 use farcaster_core::{blockchain::Blockchain, swap::SwapId};
 use strict_encoding::{NetworkDecode, NetworkEncode};
+use serde::{Serialize, Deserialize};
 
 use crate::bus::Outcome;
 use crate::LogStyle;

@@ -33,6 +33,8 @@ use farcaster_core::{
     swap::SwapId,
 };
 
+use serde::{Serialize, Deserialize};
+
 use crate::opts::Opts;
 use crate::Error;
 
